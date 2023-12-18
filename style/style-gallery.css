@@ -8,7 +8,7 @@
 /* Променено на три колони на ред */
 @media (min-width: 768px) {
   .video-gallery {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
