@@ -30,3 +30,29 @@
   height: 100%;
   object-fit: cover;
 }
+
+
+/* Променени стилове за малки екрани */
+@media (max-width: 767px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    background-color: #0c1f58; /* Предоставете цвят, който искате за мобилната версия */
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  nav li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .search {
+    margin-right: 0;
+  }
+}
+
